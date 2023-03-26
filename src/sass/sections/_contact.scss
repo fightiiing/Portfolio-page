@@ -17,6 +17,43 @@
     margin-top: 0;
     -webkit-clip-path: none;
   }
+  .form {
+    display: flex; 
+margin-left: auto;
+margin-right: auto; 
+font-size: 1.5rem;
+line-height: 2rem; 
+flex-direction: column; 
+max-width: 56rem; 
+gap: 1rem; 
+
+.input {
+  padding: 0.75rem; 
+color: #000000; 
+font-size: 1.5rem;
+line-height: 2rem; 
+width: 100%; 
+border-radius: 0.75rem; 
+border-width: 1px; 
+border-style: solid; 
+
+@media (min-width: 640px) { 
+  font-size: 1.875rem;
+line-height: 2.25rem; 
+ }
+}
+
+
+@media (min-width: 640px) { 
+  font-size: 1.875rem;
+line-height: 2.25rem; 
+ }
+
+
+
+
+
+  }
 
   .contact-wrapper {
     margin-top: 3.2rem;

@@ -15,10 +15,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <link rel="shortcut icon" type="image/svg" href="assets/icon.svg" />
 
     <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Mike Giordano | Your Company</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
     <!-- Todo: improve your SEO by adding a small description of you -->
@@ -34,8 +34,7 @@
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
 
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+   
   </head>
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
@@ -45,14 +44,14 @@
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
-        <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+        <h1 class="hero-title load-hidden">         
+          Hi, I'm <span class="text-color-main">Mike</span>.
           <br />
-          I'm the Unknown Developer.
+          Maybe we can work together.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
+            >Learn more</a
           >
         </p>
       </div>
@@ -62,39 +61,43 @@
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
-        <h2 class="section-title load-hidden">About me</h2>
+        <h2 class="section-title load-hidden">About</h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
               <img
                 alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
+                class="img-fluid"
                 height="auto"
                 width="300px"
-                src="assets/profile.jpg"
-                alt="Profile Image"
+                style="border-radius: 6px;"
+                src="assets/outlined_computer.svg"
               />
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you have!
+                After eight years maintaining, creating, and designing web pages in a CMS I'm now seeking a junior web dev or similar role. 
+               </p>
+               <p class="about-wrapper__info-text">
+                I graduated from a front-end web development course in March 2023 and have taken over twenty courses on tech. I quickly absorb new concepts  
+                while bringing ambitious ideas and a positive attitude to each challenge.
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                When I'm not at the keyboard I'm probably trying to achieve my annual running goal. Last year it was to run a marathon, this year it's to finish a half-marathon in under two hours. 
+                I also like to play chess for months at a time, ball-chase in Rocket League, watch a lot of movies, and <em>not</em> obsess over my fantasy English premier league team. 🤓
               </p>
-              <span class="d-flex mt-3">
+              <!-- <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
                   href="assets/resume.pdf"
                 >
-                  View Resume
+                  Resume
                 </a>
-              </span>
+              </span> -->
             </div>
           </div>
         </div>
@@ -272,14 +275,42 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+
+          <form
+          action=""
+          class="form"
+          data-netlify="true"
+        >
+          
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            required
+            minlength="3"
+            maxlength="60"
+            placeholder="Subject"
+            class="input"
+          />
+         
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+            required
+            class="input"
+          ></textarea>
+          <button
+            class="contact-wrapper__text cta-btn cta-btn--resume"
+            type="submit"
+            style="background-color: transparent;"
           >
+            Submit
+          </button>
+        </form>
+
         </div>
       </div>
     </section>
@@ -292,50 +323,16 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="http://www.linkedin.com/in/mike-giordano-boston" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://github.com/fightiiing" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
 
         <hr />
-
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
-        <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer" 
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobiwave/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
+       
       </div>
     </footer>
     <!-- /END Footer Section -->

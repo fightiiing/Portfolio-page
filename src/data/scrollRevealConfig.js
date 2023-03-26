@@ -10,7 +10,7 @@ export const targetElements = [
   {
     element: ".section-title",
     animation: {
-      delay: 300,
+      delay: 900,
       distance: "0px",
       origin: "bottom",
     },
