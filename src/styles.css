@@ -10868,6 +10868,14 @@ body {
   background: #02aab0;
 }
 
+::-moz-selection {
+  background: rgb(164, 221, 231);
+}
+
+::selection {
+  background: rgb(164, 221, 231);
+}
+
 h1, .h1 {
   font-weight: 700;
 }

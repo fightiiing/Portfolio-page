@@ -26,3 +26,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: $primary-color;
 }
+ 
+::selection {
+  background: rgb(164, 221, 231);
+} 
